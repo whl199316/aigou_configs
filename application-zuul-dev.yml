@@ -16,5 +16,7 @@ zuul:
    plat.path: /plat/**
    product.serviceId: aigou-product-service
    product.path: /product/**
+   common.serviceId: aigou-common #这是调用满足条件的服务名，注意要小写
+   common.path: /common/** #这是所有路径前的通配
   ignored-services: "*"
   prefix: "/services"
